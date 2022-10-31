@@ -1,9 +1,14 @@
+body{
+  background-color: rgb(51, 32, 68);
+  color: rgb(233, 209, 255);
+}
 .App {
   display: flex;
   justify-content: center;
 }
 
 .calculator {
+  margin-top: 200px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
@@ -15,4 +20,12 @@
 
 .row {
   grid-column: 1 / -1;
+}
+
+#display{
+  text-align: right;
+}
+
+#clear{
+  text-align: right;
 }
